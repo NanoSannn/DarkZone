@@ -1,0 +1,264 @@
+.background-color {
+  background-color: #333;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.navigation-bar {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8));
+  overflow: hidden;
+  position: sticky;
+  line-height: 60px;
+  height: 60px;
+  z-index: 10;
+  top: 0;
+
+  border-style: solid;
+  border-width: 0px;
+  border-color: transparent;
+}
+
+.navbar-btn-home {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Noto Sans Thai";
+  text-decoration: none;
+
+  padding: 40px 20px;
+
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: transparent;
+
+  transition: 0.6s;
+}
+
+.navbar-btn-home:hover {
+  color: #000;
+  background-color: #2e4486;
+  padding: 10px 34%;
+  white-space: nowrap;
+}
+
+.sheet {
+  width: 300px;
+  margin: 120px auto 0px auto;
+  background-color: #555;
+  border-radius: 10px;
+  padding: 0 120px 0px;
+}
+
+.gang-name {
+  font-family: "Fugaz One";
+  font-weight: bold;
+  color: #000;
+  font-size: 3rem;
+  margin: 10% auto 10px auto;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.universal-btn {
+  display: block;
+  color: white;
+  font-family: "Kanit";
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  width: auto;
+  line-height: 30px;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 0px;
+
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 15px;
+
+  background-color: #aaa;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.universal-btn:hover {
+  background-color: #2e4486;
+}
+
+.universal-text {
+  display: block;
+  color: white;
+  font-family: "Kanit";
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  cursor: default;
+
+  margin-top: 30px;
+}
+
+.AniDev {
+  text-decoration: none;
+  color: #ecbafc;
+}
+
+.AniDev:hover {
+  color: #a8bcf2;
+}
+
+.Admin {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.Admin:hover {
+  color: #000;
+}
+
+
+@media (max-width: 570px) {
+  .sheet {
+    padding: 0 20px 30px;
+    width: auto;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-family: "Noto Sans";
+  line-height: 20px;
+}
+
+.footer-content {
+  margin: 5px;
+}
+
+.footer-thai-font {
+  font-family: "Noto Sans Thai";
+  font-weight: bold;
+}
+
+.footer-small-text {
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  color: deepskyblue;
+}
+
+.footer-link:hover {
+  color: #ecc16f;
+}
+
+@media (max-width: 330px) {
+  .footer-thai-font {
+    letter-spacing: -1px;
+  }
+}
+
+.fade-in-animation {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 330px) {
+  .not-support {
+    display: none;
+  }
+
+  .not-support-text {
+    display: block;
+    color: white;
+    font-family: "Noto Sans Thai";
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 330px) {
+  .not-support-text {
+    display: none;
+  }
+}

@@ -1,0 +1,166 @@
+.background-color-light {
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: "Puimek";
+    src: url("./font/puimek.ttf");
+}
+
+.navigation-bar-light {
+    background: #a8bcf2;
+}
+
+.navbar-btn-home-light {
+    color: #fff;
+    font-family: "Puimek";
+    font-size: 1.6rem;
+}
+
+.navbar-btn-home-light:hover {
+    color: #fff;
+    background-color: #f7a5c1;
+    border-radius: 50px;
+}
+
+.copyText-dialog-font-light {
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.head-text-light {
+    color: #ff7fa8;
+    background-color: #fff;
+    font-family: "Puimek";
+    font-size: 1.8rem;
+}
+
+.copyText-dialog-font-light {
+    color: #fff;
+}
+
+.theme-text-light {
+    color: #ff7fa8;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+    padding: 0 3px;
+}
+
+.theme-btn-light {
+    color: white;
+    background-color: #ecbafc;
+    font-family: "Puimek";
+    font-size: 2rem;
+}
+
+.theme-btn-light:hover {
+    color: #ff7fa8;
+}
+
+.scroll-up-btn-light {
+    background-color: #ff7fa8;
+    color: white;
+    border-color: #ecbafc;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+    padding: 10px 8px 6px 8px;
+}
+
+.interact-box-light {
+    color: white;
+    background-color: #ecbafc;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.interact-box-light:hover {
+    border-color: #a8bcf2;
+}
+
+.interact-btn-light {
+    color: white;
+    background-color: #ecbafc;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.interact-btn-light:hover {
+    color: white;
+    background-color: #f7a5c1;
+}
+
+.sheet-light {
+    background-color: #fff;
+}
+
+.item-sheet-light {
+    background-color: #fff;
+}
+
+.item-content-light {
+    background-color: #f7a5c1;
+}
+
+.member-name-light {
+    color: #fff;
+    background-color: #ff7fa8;
+    font-family: "Puimek";
+    font-size: 2.2rem;
+}
+
+.member-profile-block-light {
+    border-color: #ecbafc;
+}
+
+.member-profile-detail-light {
+    color: white;
+    background-color: #a8bcf2;
+}
+
+.member-profile-detail-text-light {
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.member-info-light {
+    color: black;
+    background-color: #a8bcf2;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.member-info-text-light {
+    color: white;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.member-contact-light {
+    color: black;
+    background-color: #a8bcf2;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.member-contact-timemie-light {
+    color: black;
+    background-color: #a8bcf2;
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+.member-social-icon-light {
+    border-color: #ecbafc;
+}
+
+.member-discord-name-light {
+    font-family: "Puimek";
+    font-size: 1.2rem;
+}
+
+@media (max-width: 330px) {
+    .not-support-text-light {
+        color: #333;
+    }
+}

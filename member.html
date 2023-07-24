@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Member Dark Zone</title>
+  <link rel="icon" href="./images/darkzone.bmp" type="image/icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/member.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/loading.css">
+  <link rel="stylesheet" href="./css/timemie_only.css">
+  <link rel="stylesheet" href="./css/light.css">
+
+  <link id="google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=400|Itim:400|Noto+Sans+Thai:400,700|Noto+Sans:700|Fugaz+One:400|Kanit:400,500,600,700">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="background-color fade-in-animation">
+
+  <header class="navigation-bar align-center"><a href="./main.html" class="navbar-btn-home">หน้าหลัก</a></header>
+
+  <div class="loading-screen-index" id="loadingScreen2" style="display: none;"></div>
+  <div class="loading-screen" id="loadingScreen">
+    <p class="loading-screen-text" id="loadingText"></p>
+    <img class="loading-screen-gif fade-in-animation" id="loadingAnimation">
+    <img class="loading-screen-gif fade-in-animation" id="loadingAnimation2" style="display: none;">
+  </div>
+
+  <div class="not-support fade-in-animation" style="animation-delay: 4.5s;">
+
+    <h2 class="head-text align-center">รายชื่อสมาชิก<span class="theme-text"> Dark </span>
+      <button class="theme-btn" id="theme">Zone</button><br>
+      <!--button id="scroll-down-btn" class="scroll-down-btn">
+        ดูรายชื่อ
+      </button-->
+      <input class="interact-box" id="interact-box"></input>
+      <button class="interact-btn" id="interact-btn">GO</button>
+    </h2>
+
+    <button onclick="topFunction()" id="scrollUp" class="scroll-up-btn">ขึ้น</button>
+
+    <div id="generator"></div>
+    
+    <script src="./js/generator.js" type="module"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/clipboard.js" type="module"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/member.js" type="module"></script>
+    <script src="./js/data.js" type="module"></script>
+    <script src="./js/discordlookupAPI.js" type="module"></script>
+    <script src="./js/interact.js" type="module"></script>
+
+  </div>
+  <p class="not-support-text align-center " id="not-support">หน้าเพจนี้<br>ไม่สามารถแสดงผล<br>บนอุปกรณ์ของคุณได้<br>
+    <a href="./main.html class="about-link">หน้าหลัก</a><br>
+  <p>
+</body>
+
+<footer class="footer align-center not-support-text" style="height: 25px;">
+  <a href="./member.classic.html" class="about-link-footer">ดำเกินการต่อ
+  </a>
+</footer>
+
+</html>

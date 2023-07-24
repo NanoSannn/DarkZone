@@ -1,0 +1,441 @@
+.head-text {
+    font-family: "Noto Sans Thai";
+    font-weight: bold;
+    color: #ffa31a;
+    font-size: 1.75rem;
+    margin: 40px;
+    padding: 10px 0;
+
+    background-color: #444;
+}
+
+.copyText-dialog {
+    background-color: white;
+    color: white;
+}
+
+.copyText-dialog-font {
+    font-family: "Noto Sans Thai";
+    color: black;
+}
+
+.theme-data {
+    font-family: "Noto Sans Thai";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    background-color: #ffa31a;
+    padding: 0px 0;
+    margin-left: -3px;
+
+    line-height: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.theme-btn {
+    font-family: "Noto Sans Thai";
+    font-size: 1.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    background-color: #ffa31a;
+    padding: 10px 0;
+    margin-left: -3px;
+
+    line-height: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+
+    transition: 0.4s;
+}
+
+.theme-btn:hover {
+    color: white;
+}
+
+.scroll-down-btn {
+    font-family: "Noto Sans Thai";
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: #ffa31a;
+
+    line-height: 20px;
+    padding: 6px 80px 3px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.scroll-up-btn {
+    display: none;
+    position: fixed;
+    font-family: "Noto Sans Thai";
+    font-weight: bold;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffa31a;
+    color: white;
+    cursor: pointer;
+    padding: 8px 8px 4px 8px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+.interact-box {
+    font-family: "Noto Sans Thai";
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: #ffa31a;
+
+    line-height: 20px;
+    padding: 6px 80px 3px;
+
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+
+    transition: 0.6s;
+}
+
+.interact-box:hover {
+    border-color: #ecc16f;
+}
+
+.interact-btn {
+    font-family: "Noto Sans Thai";
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    background-color: #ecc16f;
+
+    line-height: 20px;
+    padding: 8px 5px 5px;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+
+    transition: 0.4s;
+}
+
+.interact-btn:hover {
+    color: white;
+    background-color: #ffa31a;
+}
+
+
+.item-sheet {
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.item-content {
+    display: block;
+    margin: 0 auto;
+    min-height: 200px;
+    width: 950px;
+    margin: auto auto auto auto;
+    background-color: black;
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: transparent;
+
+    transition: 0.8s;
+}
+
+.item-content:hover {
+    transform: scale(1.1);
+}
+
+.member-name {
+    color: black;
+    background-color: #ecc16f;
+    font-family: "Itim";
+    font-size: 1.75rem;
+    margin: -145px 10px 10px 160px;
+    padding: 0px 10px 0px 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.member-profile-block {
+    width: 115px;
+    height: 115px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 38px 0px 0px 20px;
+    perspective: 1000px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    border-color: #ffa31a;
+}
+
+.member-profile-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.member-profile-block:hover .member-profile-inner {
+    transform: rotateY(180deg);
+}
+
+.member-profile,
+.member-profile-detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.member-profile {
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+.member-profile-detail {
+    color: white;
+    background-color: #ffa31a;
+
+    border-radius: 20px;
+    transform: rotateY(180deg);
+}
+
+.member-profile-detail-text {
+    font-family: "Kanit";
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.member-info {
+    font-family: "Noto Sans Thai";
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    background-color: #ffa31a;
+    margin: 0px 10px 10px 160px;
+    padding: 5px 10px 5px 10px;
+
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: transparent;
+
+    transition: 0.8s;
+}
+
+.member-info:hover {
+    border-color: #ecc16f;
+}
+
+.member-info-text {
+    color: white;
+}
+
+.member-contact {
+    font-family: "Noto Sans Thai";
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    background-color: #ffa31a;
+    margin: 0px 10px 10px 160px;
+    padding: 5px 10px 5px 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: transparent;
+
+    transition: 0.4s;
+}
+
+.member-contact:hover {
+    border-color: #ffa31a;
+}
+
+.member-social-icon {
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50% !important;
+    cursor: pointer;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ecc16f;
+}
+
+.member-facebook-icon {
+    background-image: url("../images/facebook.png");
+    margin: 0px 0px 0px 0px;
+    height: 30px;
+    width: 30px;
+}
+
+.member-instragram-icon {
+    background-image: url("../images/instragram.png");
+    margin: -34px 0px 0px 50px;
+    height: 30px;
+    width: 30px;
+}
+
+.member-discord-icon {
+    background-image: url("../images/discord.bmp");
+    margin: -34px 0px 0px 100px;
+    height: 34px;
+    width: 34px;
+}
+
+.member-discord-name {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Kanit";
+    width: 260px;
+
+    background: transparent;
+    display: block;
+
+    margin: -2px 0px 0px 30px;
+    padding-left: 0px;
+
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.member-external-icon {
+    margin: -34px 0px 0px auto;
+    height: 30px;
+    width: 30px;
+}
+
+
+.member-external-icon,
+.member-facebook-icon,
+.member-instragram-icon,
+.member-discord-icon {
+    transition: 0.4s;
+}
+
+.member-external-icon:hover,
+.member-facebook-icon:hover,
+.member-instragram-icon:hover,
+.member-discord-icon:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 1100px) {
+    .item-content {
+        width: 680px;
+    }
+}
+
+@media (max-width: 760px) {
+    .item-content {
+        width: 560px;
+    }
+
+    .member-discord-name {
+        width: 200px;
+    }
+}
+
+@media (max-width: 660px) {
+    .item-content {
+        width: 460px;
+    }
+
+    .member-discord-name {
+        width: 80px;
+
+        background: transparent;
+        color: transparent;
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 540px) {
+    .head-text {
+        line-height: normal;
+    }
+
+    .interact-box {
+        padding: 6px 30px 3px;
+    }
+
+    .item-content {
+        width: 300px;
+    }
+
+    .head-text {
+        width: auto;
+        margin: 40px 0px;
+        text-align: center;
+    }
+
+    .scroll-down-btn {
+        padding: 6px 30px 3px;
+    }
+
+    .member-profile-block {
+        margin: 30px 0px 0px 20px;
+    }
+
+    .member-profile {
+        margin-top: 0;
+    }
+
+    .member-name {
+        margin: -145px 10px 10px 160px;
+    }
+
+    .member-info {
+        height: 100px;
+    }
+
+    .member-info-text {
+        color: white;
+    }
+
+    .member-contact {
+        margin: 20px 10px 10px 10px;
+    }
+
+    .member-discord {
+        margin: -35px 0px 0px 100px;
+    }
+}

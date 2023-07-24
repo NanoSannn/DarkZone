@@ -1,0 +1,35 @@
+.about-text {
+    color: white;
+    font-family: "Noto Sans Thai";
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-link {
+    font-size: 1.1rem;
+    color: deepskyblue;
+}
+
+.about-link:hover {
+    color: #ecc16f;
+}
+
+.about-link-footer {
+    font-size: 0.8rem;
+    color: deepskyblue;
+}
+
+.about-link-footer:hover {
+    color: #ecc16f;
+}
+
+.detail-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.detail-link:hover {
+    color: #ecc16f;
+}
