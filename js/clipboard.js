@@ -1,10 +1,10 @@
 import { memberCount } from "./data.js";
 
-var clipboard = new ClipboardJS('.member-discord-icon');
+new ClipboardJS('.member-discord-icon');
 
 var ids = [];
 
-for (var i = 1; i <= memberCount; i++) {
+for (var i = 0; i <= memberCount; i++) {
     var id = "u" + ("000" + i).slice(-3) + "_dc_copy";
     ids.push(id);
 }
