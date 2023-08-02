@@ -1,6 +1,6 @@
 import { member, memberCount } from "./data.js";
 
-const discordlookupAPI = "https://discordlookup.mesavirep.xyz/v1/user/";
+const discordlookupAPI = "http://aniabt.ddns.net:3000/v1/user/";
 const avatarSize = "?size=512";
 
 for (let i = 0; i <= memberCount; i++) {
@@ -17,8 +17,7 @@ for (let i = 0; i <= memberCount; i++) {
       const dcNameElement = document.getElementById(`${memberId}_dc_name`);
 
       profileElement.style.backgroundImage = `url("${data.avatar.link}${avatarSize}")`;
-      dcNameElement.value =
-        data.tag.slice(-2) === "#0" ? data.tag.slice(0, -2) : data.tag;
+      dcNameElement.value = data.username;
     })
     .catch((error) => console.error(error));
 }
