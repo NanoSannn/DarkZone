@@ -41,7 +41,7 @@ export const member = [
     detail: "🌟<br>2002-03-17<br>(ชาย 21 ปี)",
     fblink: "https://www.facebook.com/vampirepp11",
     iglink: "https://www.instagram.com/naru_sannnnn/",
-    xtlink: "https://nanosannn.github.io/AboutMe.github.io/",
+    xtlink: "https://lit.link/en/MinehisaKun ",
     xticon:
       'background-image: url("https://avatars.githubusercontent.com/u/77852240?v=4");',
     discordUserID: "731022611521208340",
