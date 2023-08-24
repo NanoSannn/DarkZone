@@ -86,7 +86,6 @@ export const member = [
     iglink: "https://www.instagram.com/ailada92/",
     discordUserID: "977000212138709012",
   },
-
   {
     name: "บอส",
     info1: "สมาชิก",
@@ -94,6 +93,14 @@ export const member = [
     fblink: "",
     iglink: "",
     discordUserID: "1040226643186294795",
+  },
+  {
+    name: "ทดสอบ",
+    info1: "JS-Delivr",
+    detail: "CDN",
+    fblink: "",
+    iglink: "",
+    discordUserID: "940869078476783626",
   },
 ];
 
