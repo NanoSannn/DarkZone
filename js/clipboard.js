@@ -1,4 +1,4 @@
-import { memberCount } from "./data.js";
+import { memberCount } from "https://cdn.jsdelivr.net/gh/NanoSannn/DarkZone/js/data.js";
 
 new ClipboardJS('.member-discord-icon');
 

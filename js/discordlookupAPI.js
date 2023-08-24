@@ -1,4 +1,4 @@
-import { member, memberCount } from "./data.js";
+import { member, memberCount } from "https://cdn.jsdelivr.net/gh/NanoSannn/DarkZone/js/data.js";
 
 const discordlookupAPI = "http://aniabt.ddns.net:3000/v1/user/";
 const avatarSize = "?size=512";

@@ -1,4 +1,4 @@
-import { memberCount, UidXtLink } from "./data.js";
+import { memberCount, UidXtLink } from "https://cdn.jsdelivr.net/gh/NanoSannn/DarkZone/js/data.js";
 
 let generatedHtml = "";
 for (let i = 1; i <= memberCount; i++) {
