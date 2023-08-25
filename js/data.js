@@ -94,14 +94,6 @@ export const member = [
     iglink: "",
     discordUserID: "1040226643186294795",
   },
-  {
-    name: "ทดสอบ",
-    info1: "JS-Delivr",
-    detail: "CDN",
-    fblink: "",
-    iglink: "",
-    discordUserID: "940869078476783626",
-  },
 ];
 
 export const memberCount = member.length - 1;
